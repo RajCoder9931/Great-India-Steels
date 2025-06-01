@@ -64,7 +64,7 @@ export function Enquiry() {
       formData.requirements.forEach((req) => data.append('requirements', req));
 
       const response = await fetch(
-        'http://localhost:5000/api/quotes/',
+        'https://great-india-steels.onrender.com/api/quotes/',
         {
           method: 'POST',
           body: data,
