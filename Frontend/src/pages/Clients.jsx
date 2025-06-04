@@ -1,30 +1,26 @@
 import React from 'react';
+import Hero from '../assets/Hero Logo.png';
+import Tube from '../assets/Ti Cycle Logo.png';
+import Tpi from '../assets/TPI Logo.jpeg';
+import Avon from '../assets/Avon.jpeg';
 import { StarIcon } from 'lucide-react';
 export function Clients() {
   const clients = [{
-    logo: 'https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80',
-    name: 'Automotive Motors Ltd.',
-    industry: 'Automotive'
+    logo: Hero,
+    name: 'HERO CYCLES LIMITED',
+    industry: 'Bicycles & Mobility'
   }, {
-    logo: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80',
-    name: 'AeroTech Systems',
-    industry: 'Aerospace'
+    logo: Tube,
+    name: 'Tube Investments of India Ltd (Ti Cycle)',
+    industry: 'Engineering & Bicycles'
   }, {
-    logo: 'https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80',
-    name: 'MediCare Devices',
-    industry: 'Medical'
+    logo: Tpi,
+    name: 'Tube Products of India Ltd (TPI)',
+    industry: 'Steel Tubes & Engineering'
   }, {
-    logo: 'https://images.unsplash.com/photo-1563986768609-322da13575f3?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80',
-    name: 'EnergyFlow Corp',
-    industry: 'Oil & Gas'
-  }, {
-    logo: 'https://images.unsplash.com/photo-1560179707-f14e90ef3623?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80',
-    name: 'DefenseTech Inc.',
-    industry: 'Defense'
-  }, {
-    logo: 'https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80',
-    name: 'IndustrialPro Solutions',
-    industry: 'Manufacturing'
+    logo: Avon,
+    name: 'Avon Cycles Ltd',
+    industry: 'Bicycles & Mobility'
   }];
   const testimonials = [{
     text: 'Indian Metalic Industries has consistently delivered high-quality components that meet our exacting standards. Their precision and reliability make them a valuable partner.',

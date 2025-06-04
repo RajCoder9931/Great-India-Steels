@@ -1,5 +1,7 @@
 import React from 'react';
 import { CheckCircleIcon, AwardIcon, ShieldCheckIcon, FileTextIcon } from 'lucide-react';
+import Register from '../assets/Registration.jpeg';
+import Management from '../assets/Management.jpeg';
 export function Quality() {
   const qualityProcesses = [{
     title: 'Incoming Material Inspection',
@@ -20,16 +22,12 @@ export function Quality() {
   }];
   const standards = [{
     name: 'ISO 9001:2015',
-    description: 'Quality Management System certification ensuring consistent quality delivery',
-    image: 'https://images.unsplash.com/photo-1586953208448-b95a79798f07?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80'
+    description: 'Quality Management System certification ensuring consistent quality delivery in the manufacturing and supply of steel tubes and engineering goods.',
+    image: Register
   }, {
-    name: 'AS9100D',
-    description: 'Aerospace Quality Management System for aviation and defense applications',
-    image: 'https://images.unsplash.com/photo-1540575467063-178a50c2df87?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80'
-  }, {
-    name: 'ISO 14001',
-    description: 'Environmental Management System ensuring sustainable manufacturing practices',
-    image: 'https://images.unsplash.com/photo-1441974231531-c6227db76b6e?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80'
+    name: 'ISO 14001:2015',
+    description: 'Environmental Management System ensuring sustainable manufacturing practices and compliance in operations.',
+    image: Management
   }];
   const testingEquipment = ['Coordinate Measuring Machines (CMM)', 'Surface Roughness Testers', 'Hardness Testing Equipment', 'Material Testing Machines', 'Optical Comparators', 'Gauge Blocks & Calibration Standards', 'Thread Gauges & Ring Gauges', 'Digital Calipers & Micrometers'];
   return <div className="w-full">
@@ -148,55 +146,44 @@ export function Quality() {
         </div>
       </section>
       {/* Quality Certificates */}
-      <section className="py-20 bg-gray-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">
-              Quality Certificates
-            </h2>
-            <p className="text-lg text-gray-600">
-              Download our quality certificates and compliance documents
-            </p>
-          </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <div className="bg-white p-6 rounded-lg shadow-md text-center">
-              <FileTextIcon className="h-12 w-12 text-blue-600 mx-auto mb-4" />
-              <h3 className="text-lg font-semibold text-gray-900 mb-2">
-                ISO 9001:2015 Certificate
-              </h3>
-              <p className="text-gray-600 mb-4">
-                Quality Management System Certificate
-              </p>
-              <button className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition-colors">
-                Download PDF
-              </button>
-            </div>
-            <div className="bg-white p-6 rounded-lg shadow-md text-center">
-              <FileTextIcon className="h-12 w-12 text-green-600 mx-auto mb-4" />
-              <h3 className="text-lg font-semibold text-gray-900 mb-2">
-                AS9100D Certificate
-              </h3>
-              <p className="text-gray-600 mb-4">
-                Aerospace Quality Management Certificate
-              </p>
-              <button className="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700 transition-colors">
-                Download PDF
-              </button>
-            </div>
-            <div className="bg-white p-6 rounded-lg shadow-md text-center">
-              <FileTextIcon className="h-12 w-12 text-purple-600 mx-auto mb-4" />
-              <h3 className="text-lg font-semibold text-gray-900 mb-2">
-                Calibration Certificate
-              </h3>
-              <p className="text-gray-600 mb-4">
-                Equipment Calibration Records
-              </p>
-              <button className="bg-purple-600 text-white px-4 py-2 rounded hover:bg-purple-700 transition-colors">
-                Download PDF
-              </button>
-            </div>
-          </div>
-        </div>
-      </section>
-    </div>;
+     <section className="py-20 bg-gray-50">
+    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div className="text-center mb-16">
+      <h2 className="text-4xl font-bold text-gray-900 mb-4">
+        Quality Certificates
+      </h2>
+      <p className="text-lg text-gray-600">
+        Download our quality certificates and compliance documents
+      </p>
+    </div>
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+      {/* ISO 9001 */}
+      <div className="bg-white p-6 rounded-lg shadow-md text-center">
+        <FileTextIcon className="h-12 w-12 text-blue-600 mx-auto mb-4" />
+        <h3 className="text-lg font-semibold text-gray-900 mb-2">
+          ISO 9001:2015 Certificate
+        </h3>
+        <p className="text-gray-600 mb-4">
+          Quality Management System Certificate
+        </p>
+        <a href="../assets/Registration.jpeg" download className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition-colors inline-block">
+        Download PDF</a>
+      </div>
+      {/* ISO 14001 */}
+      <div className="bg-white p-6 rounded-lg shadow-md text-center">
+        <FileTextIcon className="h-12 w-12 text-green-600 mx-auto mb-4" />
+        <h3 className="text-lg font-semibold text-gray-900 mb-2">
+          ISO 14001:2015 Certificate
+        </h3>
+        <p className="text-gray-600 mb-4">
+          Environmental Management System Certificate
+        </p>
+        <a href="../assets/Management.jpeg" download className="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700 transition-colors inline-block" >
+        Download PDF </a>
+      </div>
+    </div>
+  </div>
+</section>
+</div>;
 }
