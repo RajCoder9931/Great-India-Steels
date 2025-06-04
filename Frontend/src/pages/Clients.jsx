@@ -1,7 +1,7 @@
 import React from 'react';
-import Hero from '../assets/Hero Logo.png';
-import Tube from '../assets/Ti Cycle Logo.png';
-import Tpi from '../assets/TPI Logo.jpeg';
+import Hero from '../assets/HeroLogo.png';
+import Tube from '../assets/TiLogo.png';
+import Tpi from '../assets/TpiLogo.jpeg';
 import Avon from '../assets/Avon.jpeg';
 import { StarIcon } from 'lucide-react';
 export function Clients() {
