@@ -145,6 +145,45 @@ export function Quality() {
           </div>
         </div>
       </section>
-    
+      {/* Quality Certificates */}
+     <section className="py-20 bg-gray-50">
+    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div className="text-center mb-16">
+      <h2 className="text-4xl font-bold text-gray-900 mb-4">
+        Quality Certificates
+      </h2>
+      <p className="text-lg text-gray-600">
+        Download our quality certificates and compliance documents
+      </p>
+    </div>
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+      {/* ISO 9001 */}
+      <div className="bg-white p-6 rounded-lg shadow-md text-center">
+        <FileTextIcon className="h-12 w-12 text-blue-600 mx-auto mb-4" />
+        <h3 className="text-lg font-semibold text-gray-900 mb-2">
+          ISO 9001:2015 Certificate
+        </h3>
+        <p className="text-gray-600 mb-4">
+          Quality Management System Certificate
+        </p>
+        <a href={Register} download className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition-colors inline-block">
+        Download PDF</a>
+      </div>
+      {/* ISO 14001 */}
+      <div className="bg-white p-6 rounded-lg shadow-md text-center">
+        <FileTextIcon className="h-12 w-12 text-green-600 mx-auto mb-4" />
+        <h3 className="text-lg font-semibold text-gray-900 mb-2">
+          ISO 14001:2015 Certificate
+        </h3>
+        <p className="text-gray-600 mb-4">
+          Environmental Management System Certificate
+        </p>
+        <a href={Management} download className="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700 transition-colors inline-block" >
+        Download PDF </a>
+      </div>
+    </div>
+  </div>
+</section>
 </div>;
-}
+      }
