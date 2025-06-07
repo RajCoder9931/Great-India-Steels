@@ -1,7 +1,9 @@
 import React from 'react';
 import { CheckCircleIcon, AwardIcon, ShieldCheckIcon, FileTextIcon } from 'lucide-react';
-import Register from '../assets/Registration.pdf';
-import Management from '../assets/Management.pdf';
+import Register from '../assets/Registration.jpeg';
+import Management from '../assets/Management.jpeg';
+import Registration from '../assets/Registration.pdf';
+import Managementpdf from '../assets/Management.pdf';
 export function Quality() {
   const qualityProcesses = [{
     title: 'Incoming Material Inspection',
@@ -167,7 +169,7 @@ export function Quality() {
         <p className="text-gray-600 mb-4">
           Quality Management System Certificate
         </p>
-        <a href={Register} download className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition-colors inline-block">
+        <a href={Registration} download className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition-colors inline-block">
         Download PDF</a>
       </div>
       {/* ISO 14001 */}
@@ -179,7 +181,7 @@ export function Quality() {
         <p className="text-gray-600 mb-4">
           Environmental Management System Certificate
         </p>
-        <a href={Management} download className="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700 transition-colors inline-block" >
+        <a href={Managementpdf} download className="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700 transition-colors inline-block" >
         Download PDF </a>
       </div>
     </div>
