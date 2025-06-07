@@ -2,8 +2,8 @@ import React from 'react';
 import { CheckCircleIcon, AwardIcon, ShieldCheckIcon, FileTextIcon } from 'lucide-react';
 import Register from '../assets/Registration.jpeg';
 import Management from '../assets/Management.jpeg';
-import Registration from '../assets/Registration.pdf';
-import Managementpdf from '../assets/Management.pdf';
+const Registration = new URL('../assets/Registration.pdf', import.meta.url).href;
+const Managementpdf = new URL('../assets/Management.pdf', import.meta.url).href;
 export function Quality() {
   const qualityProcesses = [{
     title: 'Incoming Material Inspection',
