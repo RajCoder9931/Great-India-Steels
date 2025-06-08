@@ -4,7 +4,7 @@
 // import Management from '../assets/Management.jpeg';
 // export function Quality() {
 //   const qualityProcesses = [{
-//     title: 'Incoming Material Inspection',
+//     title: 'Incoming Material Inspection';
 //     description: 'All raw materials undergo rigorous inspection before entering production',
 //     icon: <CheckCircleIcon className="h-8 w-8" />
 //   }, {
