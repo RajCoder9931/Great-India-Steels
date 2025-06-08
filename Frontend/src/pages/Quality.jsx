@@ -128,7 +128,7 @@ export function Quality() {
                 <img
                   src={standard.image}
                   alt={standard.name}
-                  className="w-full h-72 object-cover"
+                  className="w-full h-77 object-cover"
                 />
                 <div className="p-6">
                   <h3 className="text-xl font-bold text-gray-900 mb-3">
