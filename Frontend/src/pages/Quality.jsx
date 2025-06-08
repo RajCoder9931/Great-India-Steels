@@ -198,28 +198,28 @@ import {
 } from 'lucide-react';
 import Register from '../assets/Registration.jpeg';
 import Management from '../assets/Management.jpeg';
-import Registerpdf from '../assets/Registration.pdf';
-import Managepdf from '../assets/Management.pdf';
+const Registerpdf = '../assets/Registration.pdf';
+const Managepdf = '../assets/Management.pdf';
+
 
 const handleRegisterPdf = () => {
-  const registerUrl = Registerpdf;
   const link = document.createElement('a');
-  link.href = registerUrl;
-  link.download = 'Registration.pdf';
+  link.href = Registerpdf;
+  link.setAttribute('download', 'Registration.pdf');
   document.body.appendChild(link);
   link.click();
   document.body.removeChild(link);
 };
 
 const handleManagePdf = () => {
-  const manageUrl = Managepdf;
   const link = document.createElement('a');
-  link.href = manageUrl;
-  link.download = 'Management.pdf';
+  link.href = Managepdf;
+  link.setAttribute('download', 'Management.pdf');
   document.body.appendChild(link);
   link.click();
   document.body.removeChild(link);
 };
+
 
 export function Quality() {
   const qualityProcesses = [
