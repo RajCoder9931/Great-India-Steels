@@ -42,13 +42,17 @@ const express = require("express");
 const mongoose = require("mongoose");
 const path = require("path");
 const cors = require("cors");
+
+
 require("dotenv").config();
 
 const contactRoutes = require("./routes/contactRoutes");
 const quoteRoutes = require("./routes/quoteRoutes");
+const authRoutes = require('./routes/authRoutes');
 
 const app = express();
 const PORT = process.env.PORT || 5000;
+
 
 app.use(cors());
 app.use(express.json()); // Add only once
@@ -56,6 +60,7 @@ app.use(express.json()); // Add only once
 // Routes
 app.use("/api/contact", contactRoutes);
 app.use("/api/quotes", quoteRoutes);
+app.use('/api/auth', authRoutes);
 app.use("/uploads", express.static(path.join(__dirname, "uploads")));
 
 // Root route

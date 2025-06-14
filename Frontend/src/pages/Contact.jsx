@@ -30,24 +30,24 @@ const handleChange = (e) => {
 
 const handleSubmit = async (e) => {
   e.preventDefault();
+  console.log('Form data being submitted:', formData);
   try {
-    const res = await axios.post("https://great-india-steels.onrender.com/api/contact", formData);
-    alert("Form submitted successfully!");
-
-    //  Reset form input after the submission
+    const res = await axios.post('http://localhost:5000/api/contact', formData);
+    console.log('Server response:', res.data);
+    alert('Form submitted successfully!');
     setFormData({
-      firstName: "",
-      lastName: "",
-      email: "",
-      phone: "",
-      message: ""
+      firstName: '',
+      lastName: '',
+      email: '',
+      phone: '',
+      message: '',
     });
-
   } catch (err) {
-    console.error(err);
-    alert("Something went wrong!");
+    console.error('Axios error:', err);
+    alert('Something went wrong!');
   }
 };
+
 
   return <div className="w-full">
       {/* Hero Section */}

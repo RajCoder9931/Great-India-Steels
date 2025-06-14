@@ -55,21 +55,26 @@ export function Enquiry() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const data = new FormData(e.target);
-
-      for (const file of formData.files) {
-        data.append('files', file);
-      }
+      const data = new FormData();
+      data.append('firstName', formData.firstName);
+      data.append('lastName', formData.lastName);
+      data.append('company', formData.company);
+      data.append('jobTitle', formData.jobTitle);
+      data.append('email', formData.email);
+      data.append('phone', formData.phone);
+      data.append('category', formData.category);
+      data.append('description', formData.description);
+      data.append('quantity', formData.quantity);
+      data.append('timeline', formData.timeline);
+      formData.requirements.forEach((req) => data.append('requirements', req));
+      formData.files.forEach((file) => data.append('files', file));
 
       formData.requirements.forEach((req) => data.append('requirements', req));
 
-      const response = await fetch(
-        'https://great-india-steels.onrender.com/api/quotes/',
-        {
-          method: 'POST',
-          body: data,
-        }
-      );
+      const response = await fetch('http://localhost:5000/api/quotes/', {
+        method: 'POST',
+        body: data,
+      });
 
       if (!response.ok) {
         const errorText = await response.text();
@@ -85,7 +90,6 @@ export function Enquiry() {
       alert('Failed to submit: ' + error.message);
     }
   };
-  
 
   return (
     <div className='w-full'>
