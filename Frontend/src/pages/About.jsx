@@ -2,20 +2,20 @@ import React from 'react';
 import { CheckCircleIcon, TargetIcon, EyeIcon, HeartIcon } from 'lucide-react';
 export function About() {
   const milestones = [{
-    year: '1998',
+    year: '2015',
     event: 'Company founded with a vision to provide precision machining solutions'
   }, {
-    year: '2005',
+    year: '2018',
     event: 'Expanded facility and acquired advanced CNC machining centers'
   }, {
-    year: '2012',
-    event: 'Achieved ISO 9001:2008 certification for quality management'
+    year: '2015',
+    event: 'Achieved ISO 9001:2015 certification for quality Management'
   }, {
-    year: '2018',
-    event: 'Upgraded to ISO 9001:2015 and expanded into aerospace sector'
+    year: '2015',
+    event: 'Achieved to ISO 14001:2015 certification for Environmental Management System '
   }, {
-    year: '2023',
-    event: 'Reached milestone of 500+ satisfied clients across multiple industries'
+    year: '2022',
+    event: 'Reached milestone of 50+ satisfied clients across multiple industries'
   }];
   const leadership = [{
     name: 'Rajesh Kumar',
@@ -102,7 +102,7 @@ export function About() {
                 Our Story
               </h2>
               <p className="text-lg text-gray-600 mb-6">
-                Established in 2016 ,India GREAT INDIA STEEL CO.
+                Established in 2015 ,India GREAT INDIA STEEL CO.
                 has gained immense expertise in supplying & trading of Steel 
                 precision tubes, crc tube, flat bar etc. The supplier company is 
                 located in Ludhiana, Punjab and is one of the leading sellers of 
@@ -113,13 +113,13 @@ export function About() {
                 <div className="flex items-center space-x-3">
                   <CheckCircleIcon className="h-6 w-6 text-green-500" />
                   <span className="text-gray-700">
-                    25+ years of manufacturing excellence
+                    10+ years of manufacturing excellence
                   </span>
                 </div>
                 <div className="flex items-center space-x-3">
                   <CheckCircleIcon className="h-6 w-6 text-green-500" />
                   <span className="text-gray-700">
-                    500+ satisfied clients worldwide
+                    50+ satisfied clients worldwide
                   </span>
                 </div>
                 <div className="flex items-center space-x-3">

@@ -33,12 +33,12 @@ export function Home() {
   const highlights = [
     {
       icon: <UsersIcon className="h-8 w-8" />,
-      title: '500+ Clients',
+      title: '10+ Clients',
       description: 'Trusted by leading companies worldwide'
     },
     {
       icon: <CogIcon className="h-8 w-8" />,
-      title: '25+ Years',
+      title: '9+ Years',
       description: 'Experience in precision manufacturing'
     },
     {
@@ -92,7 +92,7 @@ export function Home() {
 
               </h2>
               <p className="text-lg text-gray-600 mb-6">
-                With over 25 years of experience in precision manufacturing,Indian Metalic Industries
+                With over 10 years of experience in precision manufacturing,Indian Metalic Industries
  has established itself as a trusted partner for companies requiring high-quality machined components.
               </p>
               <div className="space-y-4">
@@ -120,7 +120,7 @@ export function Home() {
               </Link>
             </div>
             <div>
-              <img src ='' alt="Manufacturing facility" className="rounded-lg shadow-lg" />
+              <img src ='https://www.mortenson.com/adobe/dynamicmedia/deliver/dm-aid--981ebb78-7108-4237-8904-4bfed27346fa/future-of-manufacturing-feature-image.jpg' alt="Manufacturing facility" className="rounded-lg shadow-lg" />
             </div>
           </div>
         </div>

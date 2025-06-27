@@ -1,9 +1,10 @@
 import React from 'react';
 import { CheckCircleIcon, AwardIcon, ShieldCheckIcon } from 'lucide-react';
+import Plant from '../assets/Plant.jpg'
 export function Infrastructure() {
   const facilities = [{
     title: 'Manufacturing Plant',
-    image: 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: Plant,
     description: 'State-of-the-art 50,000 sq ft manufacturing facility with climate-controlled environment',
     features: ['Climate Controlled', 'Clean Room Areas', 'Advanced Ventilation', 'Safety Systems']
   }, {

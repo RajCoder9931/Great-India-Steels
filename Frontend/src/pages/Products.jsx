@@ -15,12 +15,7 @@ export function Products() {
       description: 'High-precision CNC machined components for various applications',
       applications: ['Automotive', 'Aerospace', 'Industrial']
     },
-    {
-      name: 'Stainless Steel Sheets',
-      image: sheet,
-      description: 'Precision turned parts with tight tolerances and superior finish',
-      applications: ['Medical', 'Electronics', 'Hydraulics']
-    },
+    
     {
       name: 'Steel Precision Tubes',
       image: pipe,
@@ -32,12 +27,6 @@ export function Products() {
       image: tube,
       description: 'Complete assembly solutions with multiple component integration',
       applications: ['Automation', 'Robotics', 'Machinery']
-    },
-    {
-      name: 'Flat Bar',
-      image: bars,
-      description: 'Rapid prototyping services for product development',
-      applications: ['R&D', 'Testing', 'Validation']
     }
   ];
 

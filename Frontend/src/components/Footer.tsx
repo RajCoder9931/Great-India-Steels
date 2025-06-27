@@ -14,7 +14,7 @@ export function Footer() {
               <span className="text-xl font-bold">Great India Steel</span>
             </div>
             <p className="text-gray-300 mb-4">
-              Established in 2016, Great India Steel Co. in Ludhiana, Punjab, is a leading supplier and trader of steel precision tubes, CRC tubes, and flat bars. Known for quality and bulk supply, the company has built strong expertise in the steel industry.
+              Established in 2015, Great India Steel Co. in Ludhiana, Punjab, is a leading supplier and trader of steel precision tubes, CRC tubes, and flat bars. Known for quality and bulk supply, the company has built strong expertise in the steel industry.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="text-gray-300 hover:text-blue-400 transition-colors">

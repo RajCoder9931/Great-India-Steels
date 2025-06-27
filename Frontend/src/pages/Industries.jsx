@@ -25,18 +25,6 @@ export function Industries() {
     image: 'https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
     description: 'Robust components for oil and gas industry applications, designed to withstand harsh environments.',
     applications: ['Valve Components', 'Pump Parts', 'Pipeline Fittings', 'Drilling Equipment']
-  }, {
-    name: 'Electronics',
-    icon: '📱',
-    image: 'https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-    description: 'Precision components for electronic devices and telecommunications equipment with tight tolerances.',
-    applications: ['Heat Sinks', 'Connectors', 'Housing Components', 'PCB Supports']
-  }, {
-    name: 'Defense',
-    icon: '🛡️',
-    image: 'https://images.unsplash.com/photo-1581833971358-2c8b550f87b3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-    description: 'Critical components for defense applications meeting military specifications and security requirements.',
-    applications: ['Weapon Systems', 'Vehicle Components', 'Communication Equipment', 'Armor Components']
   }];
   return <div className="w-full">
       {/* Hero Section */}
@@ -101,15 +89,15 @@ export function Industries() {
           </div>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             <div className="text-center">
-              <div className="text-4xl font-bold text-blue-600 mb-2">500+</div>
+              <div className="text-4xl font-bold text-blue-600 mb-2">100+</div>
               <div className="text-gray-600">Projects Completed</div>
             </div>
             <div className="text-center">
-              <div className="text-4xl font-bold text-green-600 mb-2">25+</div>
+              <div className="text-4xl font-bold text-green-600 mb-2">9+</div>
               <div className="text-gray-600">Years Experience</div>
             </div>
             <div className="text-center">
-              <div className="text-4xl font-bold text-purple-600 mb-2">6</div>
+              <div className="text-4xl font-bold text-purple-600 mb-2">5</div>
               <div className="text-gray-600">Industries Served</div>
             </div>
             <div className="text-center">
