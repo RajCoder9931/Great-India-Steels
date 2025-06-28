@@ -18,20 +18,10 @@ export function About() {
     event: 'Reached milestone of 50+ satisfied clients across multiple industries'
   }];
   const leadership = [{
-    name: 'Rajesh Kumar',
+    name: 'Dayashankar Kumar',
     position: 'Managing Director',
     image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80',
     bio: '25+ years experience in manufacturing and business leadership'
-  }, {
-    name: 'Priya Sharma',
-    position: 'Technical Director',
-    image: 'https://images.unsplash.com/photo-1494790108755-2616b612b786?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80',
-    bio: 'Expert in precision engineering with 20+ years experience'
-  }, {
-    name: 'Amit Patel',
-    position: 'Quality Manager',
-    image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80',
-    bio: 'ISO certified quality professional ensuring excellence in all processes'
   }];
   return <div className="w-full">
       {/* Hero Section */}
