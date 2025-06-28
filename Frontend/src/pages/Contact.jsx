@@ -11,7 +11,7 @@ export  function Contact() {
       zip: '141421',
       country: 'India'
     },
-    phone: '+91 000000000',
+    phone: '+91 9463588888',
     email: 'info@greatindiasteel.com',
     hours: 'Monday - Saturday: 9:00 AM - 6:00 PM'
   };
