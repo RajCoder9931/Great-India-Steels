@@ -31,7 +31,7 @@ export function About() {
             <h1 className="text-5xl font-bold mb-6">About                 Great India Steels
 </h1>
             <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-              Leading the way in precision manufacturing with over 25 years of
+              Leading the way in precision manufacturing with over 10 years of
               excellence, innovation, and commitment to quality
             </p>
           </div>
