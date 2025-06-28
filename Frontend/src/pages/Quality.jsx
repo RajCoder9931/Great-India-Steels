@@ -165,7 +165,7 @@ export function Quality() {
             </div>
             <div>
               <img
-                src="https://images.unsplash.com/photo-1581092160607-ee22621dd758?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                src="https://www.shutterstock.com/image-photo/on-factory-scientist-sterile-protective-600nw-1268263753.jpg"
                 alt="Quality testing equipment"
                 className="rounded-lg shadow-lg"
               />
