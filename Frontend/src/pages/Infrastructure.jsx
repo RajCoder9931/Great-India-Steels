@@ -14,12 +14,12 @@ export function Infrastructure() {
     features: ['5-Axis Capability', 'High Precision', '24/7 Operation', 'Automated Systems']
   }, {
     title: 'Quality Control Lab',
-    image: 'https://images.unsplash.com/photo-1581092160607-ee22621dd758?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: 'https://www.shutterstock.com/image-photo/on-factory-scientist-sterile-protective-600nw-1268263753.jpg',
     description: 'Comprehensive quality control laboratory with advanced measurement equipment',
     features: ['CMM Machines', 'Surface Roughness', 'Material Testing', 'Calibrated Equipment']
   }, {
     title: 'Tool Room',
-    image: 'https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: 'https://www.atozmachine.com/blog/tool-rooms/a-to-z-machine-tool-room.jpg',
     description: 'Dedicated tool room for tool manufacturing, maintenance, and storage',
     features: ['Tool Manufacturing', 'Maintenance Bay', 'Tool Storage', 'Grinding Equipment']
   }];
