@@ -104,7 +104,7 @@ export function Footer() {
               </div>
               <div className="flex items-center space-x-3">
                 <PhoneIcon className="h-5 w-5 text-blue-400" />
-                <span className="text-gray-300">+91 0000000</span>
+                <span className="text-gray-300">++91 9463588888 </span>
               </div>
               <div className="flex items-center space-x-3">
                 <MailIcon className="h-5 w-5 text-blue-400" />
