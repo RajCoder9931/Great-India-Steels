@@ -67,11 +67,6 @@ export function Footer() {
               </li>
               <li>
                 <a href="#" className="text-gray-300 hover:text-white transition-colors">
-                  Stainless Steel Sheets
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-gray-300 hover:text-white transition-colors">
                   Steel Precision Tubes
                 </a>
               </li>
@@ -80,15 +75,8 @@ export function Footer() {
                   Crc Tube
                 </a>
               </li>
-              <li>
-                <a href="#" className="text-gray-300 hover:text-white transition-colors">
-                  Flat Bar
-                </a>
-              </li>
-              <li>
-                
-              </li>
-            </ul>
+              
+              </ul>
           </div>
           {/* Contact Info */}
           <div>
