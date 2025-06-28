@@ -7,6 +7,7 @@ import { StarIcon } from 'lucide-react';
 import CountUp from 'react-countup';
 import { useInView } from 'react-intersection-observer';
 import '../assets/Clients.css';
+import medical from '../assets/medical.jpg';
 
 export function Clients() {
   const clients = [
@@ -70,7 +71,7 @@ export function Clients() {
     {
       title: 'Medical Precision',
       description: 'Achieved ISO 13485 certification for medical device component manufacturing',
-      image: 'https://images.unsplash.com/photo-1581092160607-ee22621dd758?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
+      image: medical
     }
   ];
 
