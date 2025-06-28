@@ -6,6 +6,7 @@ import Avon from '../assets/Avon.jpeg';
 import { StarIcon } from 'lucide-react';
 import CountUp from 'react-countup';
 import { useInView } from 'react-intersection-observer';
+import '../assets/Clients.css';
 
 export function Clients() {
   const clients = [
@@ -94,35 +95,35 @@ export function Clients() {
       </section>
 
       {/* Client Grid */}
-      <section className="py-20 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">
-              Trusted Partners
-            </h2>
-            <p className="text-lg text-gray-600">
-              Companies that rely on our precision manufacturing expertise
-            </p>
-          </div>
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8">
-            {clients.map((client, index) => (
-              <div key={index} className="flex flex-col items-center">
-                <div className="w-32 h-32 bg-gray-100 rounded-lg flex items-center justify-center p-4 mb-4">
+        //add me
+      <section className="py-5 bg-white text-center">
+      <div className="container">
+        <h2 className="display-5 fw-bold mb-3">Trusted Partners</h2>
+        <p className="text-muted mb-5">
+          Companies that rely on our precision manufacturing expertise
+        </p>
+
+        {/* Scrolling logo wrapper */}
+        <div className="scroll-container">
+          <div className="scroll-content">
+            {[...clients, ...clients].map((client, index) => (
+              <div key={index} className="scroll-item text-center">
+                <div className="bg-light p-3 rounded shadow-sm mb-2">
                   <img
                     src={client.logo}
                     alt={client.name}
-                    className="max-w-full max-h-full object-contain"
+                    className="img-fluid"
+                    style={{ height: '80px', objectFit: 'contain' }}
                   />
                 </div>
-                <h3 className="text-sm font-semibold text-gray-900 text-center">
-                  {client.name}
-                </h3>
-                <p className="text-sm text-gray-500">{client.industry}</p>
+                <h6 className="mb-0">{client.name}</h6>
+                <small className="text-muted">{client.industry}</small>
               </div>
             ))}
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
       {/* Testimonials */}
       <section className="py-20 bg-gray-50">

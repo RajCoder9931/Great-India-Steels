@@ -1,6 +1,7 @@
 import React from 'react';
 import { CheckCircleIcon, AwardIcon, ShieldCheckIcon } from 'lucide-react';
-import Plant from '../assets/Plant.jpg'
+import Plant from '../assets/Plant.jpg';
+import cnc from '../assets/cnc.jpg';
 export function Infrastructure() {
   const facilities = [{
     title: 'Manufacturing Plant',
@@ -9,7 +10,7 @@ export function Infrastructure() {
     features: ['Climate Controlled', 'Clean Room Areas', 'Advanced Ventilation', 'Safety Systems']
   }, {
     title: 'CNC Machining Centers',
-    image: 'https://images.unsplash.com/photo-1565793298595-6a879b1d9492?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: cnc,
     description: 'Advanced 5-axis CNC machining centers with precision capabilities up to ±0.001"',
     features: ['5-Axis Capability', 'High Precision', '24/7 Operation', 'Automated Systems']
   }, {

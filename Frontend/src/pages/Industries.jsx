@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import gas from '../assets/oilgas.jpg';
+import medical from '../assets/medical.jpg';
 export function Industries() {
   const industries = [{
     name: 'Automotive',
@@ -16,13 +18,13 @@ export function Industries() {
   }, {
     name: 'Medical Devices',
     icon: '🏥',
-    image: 'https://images.unsplash.com/photo-1559757148-5c350d0d3c56?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: medical,
     description: 'Bio-compatible precision components for medical devices and surgical instruments with FDA compliance.',
     applications: ['Surgical Instruments', 'Implant Components', 'Diagnostic Equipment', 'Medical Devices']
   }, {
     name: 'Oil & Gas',
     icon: '⛽',
-    image: 'https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: gas,
     description: 'Robust components for oil and gas industry applications, designed to withstand harsh environments.',
     applications: ['Valve Components', 'Pump Parts', 'Pipeline Fittings', 'Drilling Equipment']
   }];

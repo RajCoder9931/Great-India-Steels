@@ -1,0 +1,34 @@
+/* Scrolling container setup */
+.scroll-container {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+/* Scrolling content area */
+.scroll-content {
+  display: flex;
+  gap: 40px;
+  animation: scroll-left 30s linear infinite;
+}
+
+/* Each logo item */
+.scroll-item {
+  flex: 0 0 auto;
+  width: 180px;
+}
+
+/* Keyframes for leftward scroll */
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+/* Optional: Pause scroll on hover */
+.scroll-container:hover .scroll-content {
+  animation-play-state: paused;
+}
