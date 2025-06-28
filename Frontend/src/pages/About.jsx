@@ -21,7 +21,7 @@ export function About() {
     name: 'Dayashankar Kumar',
     position: 'Managing Director',
     image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80',
-    bio: '25+ years experience in manufacturing and business leadership'
+    bio: '10+ years experience in manufacturing and business leadership'
   }];
   return <div className="w-full">
       {/* Hero Section */}
